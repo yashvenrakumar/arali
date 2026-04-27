@@ -59,8 +59,16 @@ arali/
 File: `frontend/.env`
 
 ```env
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=https://arali.onrender.com/api
 ```
+
+---
+
+## Live Deployment
+
+- Frontend (Vercel): `https://arali-rho.vercel.app/`
+- Backend (Render): `https://arali.onrender.com`
+- Production API Base URL: `https://arali.onrender.com/api`
 
 ---
 
@@ -122,7 +130,7 @@ npm run build
 
 ## API Endpoints
 
-Base URL: `http://localhost:5000/api`
+Base URL: `https://arali.onrender.com/api`
 
 - `POST /customers`
 - `GET /customers`
